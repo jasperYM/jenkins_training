@@ -17,7 +17,7 @@ pipeline {
 		stage('test flask app') {
             agent any
             steps {
-                sh 'curl host.docker.internal:7070/'
+                sh 'curl host.docker.internal:8080/prometheus'
                 }
             }
         stage('Remove Unused docker image') {
