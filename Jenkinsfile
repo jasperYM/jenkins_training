@@ -20,7 +20,6 @@ pipeline {
                 sh 'curl localhost:7070/'
                 }
             }
-        }
         stage('Remove Unused docker image') {
             steps {
                 sh "docker rmi $registry:$BUILD_NUMBER"
