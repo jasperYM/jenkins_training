@@ -1,2 +1,2 @@
-# jenkins_training
-dsa
+# jenkins_automation
+Automating Data Science Project with Jenkins
