@@ -8,7 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
-				sh 'echo "now automatic"'
+				sh 'python hello_world.py'
             }
         }
     }
